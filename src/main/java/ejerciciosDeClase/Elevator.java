@@ -1,4 +1,4 @@
-package com.capacitacion;
+package ejerciciosDeClase;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -13,6 +13,15 @@ public class Elevator {
 
     private static final int MAX_LEVEL = 20;
     private static final int MIN_LEVEL = 1;
+
+    public static void main(String[] args) {
+        Elevator elevator = new Elevator();
+        try {
+            elevator.elevator();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 
     public void elevator() throws InterruptedException {
 

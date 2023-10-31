@@ -1,4 +1,4 @@
-package com.capacitacion;
+package ejerciciosDeClase;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -17,14 +17,14 @@ public class App {
     static Consumer<String> writeInfo = (men) -> logger.info(men);
 
     public static void main(String[] args) throws InterruptedException {
-        writeInfo.accept("Hello World");        
-        writeInfo.accept("Resultado " + (25 - 5 * 4 / 2 %3 - 10 + 4));
+        writeInfo.accept("Hello World");
+        writeInfo.accept("Resultado " + (25 - 5 * 4 / 2 % 3 - 10 + 4));
 
-        int[] datos ={};
-        int [] datos2 = {};
-        int []datos3 = {};
+        int[] datos = {};
+        int[] datos2 = {};
+        int[] datos3 = {};
         int datos4[] = new int[3];
-        int datos5[] = {1,2,4};
+        int datos5[] = { 1, 2, 4 };
 
     }
 
